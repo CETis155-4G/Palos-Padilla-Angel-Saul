@@ -1,0 +1,57 @@
+<!--Define que se esta usando html5-->
+<!DOCTYPE html>
+
+<!--Selecciona un lenguaje en español-->
+<html lang="es">
+
+    <head>
+        <!--Importa el css con los estilos-->
+        <link href="styles/styles.css" rel="stylesheet" type="text/css">
+
+        <!--Titulo de la pagina-->
+        <title>LOGIN</title> 
+        
+
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <div class="nav">
+                <button type="button" onclick="location.href='index.html'">SISTEMA WEB</button>
+
+                
+                <input type="text" name="search" id="001" placeholder="Busqueda">
+                
+
+                <div class="routes">
+                    <button type="button" onclick="location.href='login.html'">Login</button>
+                    <button type="button" onclick="location.href='registro.html'">Registro</button>
+                </div>
+            </div>
+        </nav>
+        
+        <!--Clases para almacenar el formulario-->
+        <div class="login-page">
+            <div class="form">
+
+                <form class="login-form">
+
+                    
+
+                    <!--Entradas donde se instertaran los datos desesados-->
+                    <input type="text" placeholder="Usuario"/>
+                    <input type="password" placeholder="Contrasena"/>
+
+                    <!--Redireccion a otra pagina para recuperear contraseña-->
+                    <h4><a href="recuperar_pswd.html">Olvide mi contrasena</a> <br><br></h4>
+                    
+                    <!--Boton para ingresar-->
+                    <button>ENTRAR</button>
+
+                    <!--Referencia para redireccion al formulario de registro-->
+                    <p class="message">No tienes cuente <a href="registro.html">Registrate aqui</a>.</p>
+                </form>
+            </div>
+        </div>
+    </body>     
+</html>

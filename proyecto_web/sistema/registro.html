@@ -1,0 +1,120 @@
+<!--Define que se esta usando html5-->
+<!DOCTYPE html>
+
+<!--Selecciona un lenguaje en español-->
+<html lang="es">
+
+    <head>
+        <!--Importa el css con los estilos-->
+        <link href="styles/styles.css" rel="stylesheet" type="text/css">
+
+        <!--Titulo de la pagina-->
+        <title>Registro</title>
+
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <div class="nav">
+                <button type="button" onclick="location.href='index.html'">SISTEMA WEB</button>
+
+                
+                <input type="text" name="search" id="001" placeholder="Busqueda">
+                
+
+                <div class="routes">
+                    <button type="button" onclick="location.href='login.html'">Login</button>
+                    <button type="button" onclick="location.href='registro.html'">Registro</button>
+                </div>
+            </div>
+        </nav>
+
+        <!--Clases para almacenar el formulario-->
+        <div class="login-page">
+            <div class="form">
+
+                <!--Encabezado de la pagina-->
+                <h2>Registro</h2>
+
+                <!--Entradas para almacenar los datos requeridos-->
+                <form class="login-form">
+
+                    <!-- Apellidos, Nombres y Fecha de nacimiento-->
+                    <input type="text" placeholder="Apellido Paterno" required/>
+                    <input type="text" placeholder="Apellido Materno" required/>
+                    <input type="text" placeholder="Nombre/s" required/>
+                    <input type="date" placeholder="Fecha de Nacimiento" required/>
+
+                    <!--Pais donde vive-->
+                    <label >Pais</label>
+                    <select name="Pais" aria-placeholder="pais" required>
+                        <option>Mexico</option>
+                        <option>Estados Unidos</option>
+                        <option>Canada</option>
+                    </select> <br> <br>
+
+                    <!--Estado donde vive-->
+                    <label >Estado</label>
+                    <select name="estado" aria-placeholder="Estado" required>
+                        <option>Aguascalientes </option>
+                        <option>Baja California Norte</option>
+                        <option>Baja California Sur</option>
+                        <option>Campeche</option>
+                        <option>Coahuila</option>
+                        <option>Chiapas</option>
+                        <option>Chihuahua</option>
+                        <option>Durango</option>
+                        <option>D.F</option>
+                        <option>Guanajuato</option>
+                        <option>Guerrero</option>
+                        <option>Hidalgo</option>
+                        <option>Hidalgo</option>
+                        <option>Jalisco</option>
+                        <option>Mexico</option>
+                        <option>Michoacan</option>
+                        <option>Morelos</option>
+                        <option>Nayarit</option>
+                        <option>Nuevo Leon</option>
+                        <option>Oaxaca</option>
+                        <option>Puebla</option>
+                        <option>Queretaro</option>
+                        <option>Quintana Roo</option>
+                        <option>San Luis potosi</option>
+                        <option>Sinaloa</option>
+                        <option>Sonora</option>
+                        <option>Tabasco</option>
+                        <option>Tamaulipas</option>
+                        <option>Tlaxcala</option>
+                        <option>Veracruz</option>
+                        <option>Yuctan</option>
+                        <option>Zacatecas</option>
+                    </select><br><br>
+
+                    <!--Municipio donde vive-->
+                    <label >Municipio</label>
+                    <select name="Municipio" aria-placeholder="Municipio" required>
+                        <option>	Aguascalientes	</option>
+                        <option>	Calvillo	</option>
+                        <option>	Asientos	</option>
+                        <option>	Cosio	</option>
+                        <option>	Jesus Maria 	</option>
+                        <option>	Pabellon de Arteaga	</option>
+                        <option>	Rincon de Romos	</option>
+                        <option>	San Jose de Gracia	</option>
+                        <option>	Tepezala 	</option>
+                        <option>	El Llano 	</option>
+                        <option>	San Fransisco de los Romo	</option>
+                    </select> <br><br>
+
+                    <!--Telefono, Email y contraseña-->
+                    <input type="tel" placeholder="Telefono" required/>
+                    <input type="email" placeholder="Correo Electronico" required/>
+                    <input type="password" placeholder="Contrasena" required/>
+
+                    <!--Boton para concluir el rtegistro-->
+                    <button>Registrarme</button>
+                </form>
+            </div>
+        </div>
+    </body>     
+</html>

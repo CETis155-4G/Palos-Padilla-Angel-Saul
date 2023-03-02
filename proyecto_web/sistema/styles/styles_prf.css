@@ -1,0 +1,197 @@
+/* importa la fuente de letra*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+/*da tamaño al cuadro en donde estaeael formulario*/
+.login-page {
+  width: 100%;
+}
+
+/*Da diseño a los elementos dentro del formulario*/
+.form {
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(100deg, rgb(224, 224, 224) 0%, rgb(255, 255, 255) 50%);
+  max-width: 65%;
+  margin: 0 auto 160px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+/*Define las caracteristicas de la etiqueta button dentro de la clase form*/
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+/*Define los cambios que puede llegar a tener el boton*/
+.form button:hover,.form button:active,.form button:focus {
+  background: #02b102;
+}
+
+/*Define las caracteristicas de la clase register-form dentro de la clase form*/
+.form .register-form {
+  display: none;
+}
+
+/*Define las caracteristicas de la clase container*/
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/*Define el antes y despues de la clase container*/
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*Le da estilo al body */
+body {
+  background: #76b852;
+  background: rgb(141,194,111);
+  background: linear-gradient(90deg, rgb(2, 122, 170) 0%, rgb(18, 148, 255) 50%);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+/*Define la manera en que se ordenan los elementos*/
+.contenedor{
+  display: flex;
+}
+
+/*Define las caracterizaticas que tendra el boton*/
+.contenedor button{
+  background-color: #15b100;
+  color: white;
+  margin: 30px;
+  width: 200px;
+  height: 200px;
+  border-radius: 90%;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.24);
+}
+
+/*Define los cambios que puede llegar a tener el boton*/
+.contenedor button:hover,.form button:active,.form button:focus {
+  background: #13a100;
+}
+
+/*Define las caracteristicas que tendra la etiqueta a*/
+a {
+  font-size: 25px;
+  text-decoration: none;
+  color: #5900ff;
+}
+
+/*Define las caracteristicas principales de la barra de navegacion*/
+.navbar{
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  background-color: #000000;
+  color: #FFFFFF;
+  height: 70px;
+  width: 101%;
+  display:inline-block;
+  align-items: center;
+  margin: -10px;
+  position: relative;
+  z-index: 100;
+}
+
+/*Define las caracteristicas de los input dentro de la barra de navegacion*/
+.navbar input{
+  background-color: #000000;
+  width: 600px;
+  height: 40px;
+  margin-left: 20px;
+  color: #FFFFFF;
+  font-size: 30px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+/*Le asigna una posicion a la dereche a los elementos dentro de la clase routes*/
+.nav .routes {
+  float: right;
+}
+
+/*Define las caracteristicas que adoptaran los botones*/
+.nav button{
+  background-color: #000000;
+  color: white;
+  font-size: 27px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.24);
+}
+
+/*Define que pasara con los botones al tener una interaccion*/
+.nav button:hover,.form button:active,.form button:focus {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+/*Define las caracteristicas principales del pie de pagina*/
+footer{
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  background-color: #000000;
+  color: #FFFFFF;
+  height: 70px;
+  width: 101%;
+  margin: -10px;
+  position: relative;
+  z-index: 600;
+  font-size: 20px;
+  margin-top: -8%;
+}
+
+/*indica el aspecto que tendran los hipervinculos*/
+footer a{
+  margin: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/*indica el aspecto que tendran los hipervinculos al hacer una interaccion*/
+footer a:hover,footer a:active,footer a:focus {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+/* Dice que la clase facebook se movera a la derecha*/
+footer .facebook{
+  float: right;
+}
+
+/*Define el tamaño y margenes de la clase porfile*/
+.porfile{
+    background-color: #FFFFFF;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px ;
+}
+
+/*Crea un interlineado */
+.porfile .info{
+    line-height: .1;
+}
+
+/*Define el color y tamaño de la etiqueta h3*/
+.info h3{
+    font-size: 15px;
+    color: #222222;
+}
