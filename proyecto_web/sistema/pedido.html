@@ -1,0 +1,88 @@
+<!--Define que se esta usando html5-->
+<!DOCTYPE html>
+
+<!--Selecciona un lenguaje en español-->
+<html lang="es">
+
+    <head>
+        <!--Importa el css con los estilos-->
+        <link href="styles/styles_ped.css" rel="stylesheet" type="text/css">
+
+        <title>Pedidos</title>
+
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <div class="nav">
+                <button type="button" onclick="location.href='index.html'">SISTEMA WEB</button>
+
+                
+                <input type="text" name="search" id="001" placeholder="Busqueda">
+                
+
+                <div class="routes">
+                    <button type="button" onclick="location.href='login.html'">Login</button>
+                    <button type="button" onclick="location.href='registro.html'">Registro</button>
+                </div>
+            </div>
+        </nav>
+
+        <!--Crea una clase donde se contendra todo-->
+        <div class="main-page">
+            <div class="form">
+                <!--Encabezado del documento-->
+                
+                <h1>Pedidos</h1>
+
+
+                <div class="cont">
+                    <div class="detalles">
+                        <H2>Detalles</H2>
+
+                        <p>
+                            Pedido hecho por <br>
+                            (nombre del usuario) <br><br>
+
+                            Tu numero de pedido es : <br>
+                            (numerode pedido) <br><br>
+
+                            Sera entregado por : <br>
+                            (Personal de cafeteria que se lo entregara) <br><br>
+                        </p>
+                    </div>
+
+                    <div class="pedido">
+                        <h2>Pedido</h2>
+
+                        <div class="pedido_det">
+                            <img src="img/torta.jpg" width="300px">
+
+                            <div class="product">
+                                <div class="producto">
+                                    - 2 rebanadas de pizza <br>
+                                    - 1 leche santa clara <br>
+                                </div>
+                                <div class="precio">
+                                    40$ <br>
+                                    13$ <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <footer><br>
+            <a href="http://www.cetis155.edu.mx/#/">CETis 155</a>
+
+            <div class="facebook">
+                <a href="https://www.facebook.com/CETis155.Oficial/?locale=es_LA">facebook</a>
+            </div>
+
+        <br><br>
+        </footer>
+    </body>
+</html>
